@@ -1,3 +1,12 @@
+== 2.5.1 / 2014-01-21
+  * Enhancement
+    * Ruby 2.0 compatibility
+  * Bug Fix
+    * Grit::Commit.diff method was not detecting changes on empty files
+      Fixed and unit test added
+    * Fix unit test test_repo.rb(test_diff)
+    * Fix unit test test_git.rb(test_method_missing)
+
 == 2.5.0 / 2012-04-22
   * Minor Enhancements
     * 100% Git-compliant actor creation.
